@@ -1,0 +1,22 @@
+.main {
+  padding: 8rem 2rem;
+  position: relative;
+
+  @media screen and (min-width: 549px)  {
+    padding: 10rem 8rem;
+  }
+}
+
+.text {
+  font-size: 1.5rem;
+  padding: 1rem;
+  color: black;
+  backdrop-filter: blur(10px);
+  border-radius: 1rem;
+}
+
+.logo {
+  position: absolute;
+  top: 0;
+  right: 0.5rem;
+}
