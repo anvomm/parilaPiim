@@ -7,12 +7,16 @@
   }
 }
 
-.text {
+.text-wrap {
   font-size: 1.5rem;
   padding: 1rem;
   color: black;
   backdrop-filter: blur(10px);
   border-radius: 1rem;
+
+  p {
+    margin-bottom: 0;
+  }
 }
 
 .logo {
